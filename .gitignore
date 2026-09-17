@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+.env
+
+# Raw and processed lyrics datas
+backend/data/raw/
+backend/data/processed/
+backend/data/*.json
+backend/data/*.txt
+backend/data/*.csv
+
+backend/test_spotify.py
+backend/test.py
+backend/investigate.py
+
+# Cache files
+.cache
+
+.DS_Store

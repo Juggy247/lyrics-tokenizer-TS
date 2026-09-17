@@ -1,0 +1,8 @@
+{
+  "name": "SwiftBPE",
+  "version": "1.0",
+  "vocab_size": 2000,
+  "pretokenizer_pattern": "cl100k_base (GPT-4/GPT-3.5 style)",
+  "trained_on": "300 Taylor Swift songs, 562,957 characters (Genius API)",
+  "description": "A byte-pair-encoding tokenizer built and specialized on Taylor Swift lyrics."
+}

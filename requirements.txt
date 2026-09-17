@@ -1,0 +1,12 @@
+lyricsgenius==3.0.1
+spotipy==2.24.0
+python-dotenv==1.0.1
+regex==2024.5.15
+tiktoken==0.7.0
+pandas==2.2.2
+matplotlib==3.9.0
+plotly==5.22.0
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+pytest==8.2.2
