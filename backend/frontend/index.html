@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lyric Tokenizer Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>How Swiftian Is Your Text?</h1>
+<textarea id="textInput" placeholder="Type a sentence..."></textarea>
+<br>
+<button id="checkButton">Check Swiftian Score</button>
+<div id="error"></div>
+
+<div id="result">
+  <div id="score"></div>
+  <div id="verdict"></div>
+  <p>Compression ratio: <span id="compression"></span>x</p>
+  <p>Familiarity score: <span id="familiarity"></span>%</p>
+  <p>Tokens:</p>
+  <div id="tokens"></div>
+</div>
+
+<h2>Compression by Album Era</h2>
+<canvas id="eraChart" width="600" height="300"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

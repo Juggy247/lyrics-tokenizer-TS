@@ -1,0 +1,95 @@
+{
+  "major_albums": [
+    {
+      "era": "Taylor Swift",
+      "earliest_release": "2006-10-24",
+      "song_count": 12,
+      "total_chars": 17463,
+      "compression_ratio": 3.375
+    },
+    {
+      "era": "Fearless",
+      "earliest_release": "2008-11-11",
+      "song_count": 29,
+      "total_chars": 49581,
+      "compression_ratio": 3.39
+    },
+    {
+      "era": "Speak Now",
+      "earliest_release": "2010-10-25",
+      "song_count": 28,
+      "total_chars": 57162,
+      "compression_ratio": 3.385
+    },
+    {
+      "era": "Red",
+      "earliest_release": "2012-10-22",
+      "song_count": 46,
+      "total_chars": 86568,
+      "compression_ratio": 3.4
+    },
+    {
+      "era": "1989",
+      "earliest_release": "2014-01-01",
+      "song_count": 24,
+      "total_chars": 51076,
+      "compression_ratio": 3.18
+    },
+    {
+      "era": "reputation",
+      "earliest_release": "2017-11-10",
+      "song_count": 17,
+      "total_chars": 44425,
+      "compression_ratio": 2.901
+    },
+    {
+      "era": "Lover",
+      "earliest_release": "2019-08-23",
+      "song_count": 20,
+      "total_chars": 36754,
+      "compression_ratio": 3.149
+    },
+    {
+      "era": "folklore",
+      "earliest_release": "2020-07-24",
+      "song_count": 18,
+      "total_chars": 27070,
+      "compression_ratio": 3.201
+    },
+    {
+      "era": "evermore",
+      "earliest_release": "2020-12-11",
+      "song_count": 17,
+      "total_chars": 30147,
+      "compression_ratio": 3.116
+    },
+    {
+      "era": "Midnights",
+      "earliest_release": "2022-10-21",
+      "song_count": 23,
+      "total_chars": 40781,
+      "compression_ratio": 3.154
+    },
+    {
+      "era": "THE TORTURED POETS DEPARTMENT",
+      "earliest_release": "2024-04-18",
+      "song_count": 5,
+      "total_chars": 10467,
+      "compression_ratio": 3.012
+    },
+    {
+      "era": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+      "earliest_release": "2024-04-19",
+      "song_count": 26,
+      "total_chars": 44124,
+      "compression_ratio": 3.074
+    },
+    {
+      "era": "The Life of a Showgirl",
+      "earliest_release": "2025-10-03",
+      "song_count": 12,
+      "total_chars": 24053,
+      "compression_ratio": 3.056
+    }
+  ]
+}

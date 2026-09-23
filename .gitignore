@@ -18,3 +18,4 @@ backend/investigate.py
 .cache
 
 .DS_Store
+lyrics-tokenizer-key.pem

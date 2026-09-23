@@ -105,6 +105,27 @@ def main():
         print(f"\nMost tokenizer-efficient era (3+ songs): {best[0]} ({best[1]:.2f}x)")
         print(f"Least tokenizer-efficient era (3+ songs): {worst[0]} ({worst[1]:.2f}x)")
 
+        # Export for the API to serve
+    MIN_SONGS_MAJOR_ALBUM = 5
+    major = [(name, data) for name, data in sorted_eras if len(data["songs"]) >= MIN_SONGS_MAJOR_ALBUM]
+
+    export_data = {
+        "major_albums": [
+            {
+                "era": era_name,
+                "earliest_release": min(data["release_dates"]),
+                "song_count": len(data["songs"]),
+                "total_chars": data["total_chars"],
+                "compression_ratio": round(data["total_chars"] / data["total_tokens"], 3) if data["total_tokens"] else 0,
+            }
+            for era_name, data in major
+        ],
+    }
+
+    export_path = Path(__file__).resolve().parent / "era_stats.json"
+    with open(export_path, "w", encoding="utf-8") as f:
+        json.dump(export_data, f, indent=2)
+    print(f"\nExported -> {export_path}")
 
 if __name__ == "__main__":
     main()

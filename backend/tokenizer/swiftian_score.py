@@ -24,7 +24,7 @@ import bisect
 import json
 from pathlib import Path
 
-from bpe import encode
+from backend.tokenizer.bpe import encode
 
 ARTIFACTS_DIR = Path(__file__).resolve().parent / "artifacts"
 
