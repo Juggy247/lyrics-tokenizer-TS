@@ -1,4 +1,8 @@
-const API_BASE = window.location.protocol === "file:" ? "http://127.0.0.1:8000" : "";
+const IS_LOCAL_LIVE_SERVER = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  && window.location.port === "5500";
+const API_BASE = window.location.protocol === "file:" || IS_LOCAL_LIVE_SERVER
+  ? "http://127.0.0.1:8000"
+  : "";
 
 document.getElementById("checkButton").addEventListener("click", async () => {
   const text = document.getElementById("textInput").value;

@@ -59,3 +59,33 @@ button {
 .token-3 { background: #d6e8ff; }
 .token-4 { background: #e8d6ff; }
 .token-5 { background: #ffd6f0; }
+
+#eraChart {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  body {
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    width: 80%;
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+
+  #result {
+    padding: 16px;
+  }
+
+  #score {
+    font-size: 28px;
+  }
+}
