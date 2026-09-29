@@ -19,3 +19,5 @@ backend/investigate.py
 
 .DS_Store
 lyrics-tokenizer-key.pem
+/AGENTS.md
+AGENTS.md
